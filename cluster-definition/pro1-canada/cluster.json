@@ -1,5 +1,5 @@
 {
-  "environment": "pro1-canada",
+  "environment": "production",
   "sox": "no",
   "cloud": "aws",
   "region": "ca-central-1",

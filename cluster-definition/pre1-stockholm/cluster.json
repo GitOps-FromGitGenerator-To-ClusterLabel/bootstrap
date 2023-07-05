@@ -1,5 +1,5 @@
 {
-  "environment": "pre1-stockholm",
+  "environment": "preproduction",
   "sox": "no",
   "cloud": "aws",
   "region": "eu-north-1",

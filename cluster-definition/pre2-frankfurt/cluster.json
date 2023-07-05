@@ -1,5 +1,5 @@
 {
-  "environment": "pre2-frankfurt",
+  "environment": "preproduction",
   "sox": "yes",
   "cloud": "aws",
   "region": "eu-central-1",
