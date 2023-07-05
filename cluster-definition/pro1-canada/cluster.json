@@ -1,0 +1,11 @@
+{
+  "environment": "pro1-canada",
+  "sox": "no",
+  "cloud": "aws",
+  "region": "ca-central-1",
+  "cluster": {
+    "name": "pro1-canada",
+    "alias": "pro1-canada",
+    "address": "https://api.pro1-canada.sandbox419.opentlc.com:6443"
+  }
+}

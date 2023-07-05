@@ -1,0 +1,10 @@
+{
+  "environment": "development",
+  "sox": "no",
+  "cloud": "aws",
+  "region": "eu-west-2",
+  "cluster": {
+    "name": "dev1-london",
+    "address": "https://api.dev1-london.sandbox419.opentlc.com:6443"
+  }
+}
