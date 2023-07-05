@@ -1,0 +1,24 @@
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: gitops-clusters
+  namespace: openshift-gitops
+  labels:
+    gitops.ownedBy: gitops-clusters
+spec:
+  destination:
+    namespace: openshift-gitops
+    server: https://kubernetes.default.svc
+  project: bootstrap
+  source:
+    path: bootstrap/clusters/
+    repoURL: https://github.com/GitOps-FromGitGenerator-To-ClusterLabel/bootstrap.git
+    targetRevision: main
+  syncPolicy:
+    syncOptions:
+      - Prune=false
+      - RespectIgnoreDifferences=true
+  ignoreDifferences:
+  - kind: "ManagedClusterInfo"
+    group: "internal.open-cluster-management.io"
