@@ -5,6 +5,7 @@ metadata:
   name: pro1-canada
   labels:
     name: pro1-canada
+    environment: production
     cloud: Amazon
     region: ca-central-1
     vendor: OpenShift

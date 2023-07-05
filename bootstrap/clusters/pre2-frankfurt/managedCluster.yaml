@@ -5,6 +5,7 @@ metadata:
   name: pre2-frankfurt
   labels:
     name: pre2-frankfurt
+    environment: preproduction
     cloud: Amazon
     region: eu-central-1
     vendor: OpenShift
