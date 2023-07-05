@@ -1,0 +1,16 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  # Config ACM
+  - managedclustersets_development.yaml  
+  - managedclustersets_preproduction.yaml
+  - managedclustersets_production.yaml
+
+  # Projects ArgoCD
+  - app-project_bootstrap.yaml
+  
+  # Applications Base ArgoCD (bootstrap, clusters, configs)
+  - application_bootstrap.yaml
+  - application_gitops-clusters.yaml
+  - application_gitops-config-applications.yaml
