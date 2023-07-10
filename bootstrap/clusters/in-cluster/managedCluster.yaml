@@ -3,7 +3,7 @@ apiVersion: cluster.open-cluster-management.io/v1
 kind: ManagedCluster
 metadata:
   labels:
-    environment: production
+    environment: acm-production
     cloud: Amazon
     usage: acm-hub
     region: eu-west-2
