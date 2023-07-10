@@ -6,9 +6,9 @@ metadata:
   namespace: openshift-gitops
 spec:
   destinations:
-  - name: in-cluster
+  - name: local-cluster
     namespace: '*'
-    server: 'https://kubernetes.default.svc'
+    server: 'https://api.hub.sandbox419.opentlc.com:6443'
   sourceRepos:
   - '*'
   clusterResourceWhitelist:
