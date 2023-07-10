@@ -9,7 +9,7 @@ metadata:
 spec:
   destination:
     namespace: openshift-gitops
-    server: https://kubernetes.default.svc
+    server: https://api.hub.sandbox419.opentlc.com:6443
   project: bootstrap
   source:
     path: bootstrap/clusters/
