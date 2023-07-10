@@ -1,0 +1,16 @@
+---
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: production-cluster-config
+  namespace: openshift-gitops
+spec:
+  destinations:
+  - name: pro1-canada
+    namespace: '*'
+    server: 'https://api.pro1-canada.sandbox419.opentlc.com:6443'
+  sourceRepos:
+  - '*'
+  clusterResourceWhitelist:
+  - group: '*'
+    kind: '*'

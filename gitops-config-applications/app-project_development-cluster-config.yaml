@@ -1,0 +1,16 @@
+---
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: development-cluster-config
+  namespace: openshift-gitops
+spec:
+  destinations:
+  - name: dev1-london
+    namespace: '*'
+    server: 'https://api.dev1-london.sandbox419.opentlc.com:6443'
+  sourceRepos:
+  - '*'
+  clusterResourceWhitelist:
+  - group: '*'
+    kind: '*'

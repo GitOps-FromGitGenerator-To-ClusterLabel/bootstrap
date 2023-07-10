@@ -1,0 +1,19 @@
+---
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: preproduction-cluster-config
+  namespace: openshift-gitops
+spec:
+  destinations:
+  - name: pre1-stockholm
+    namespace: '*'
+    server: 'https://api.pre1-stockholm.sandbox419.opentlc.com:6443'
+  - name: pre2-frankfurt
+    namespace: '*'
+    server: 'https://api.pre2-frankfurt.sandbox419.opentlc.com:6443'
+  sourceRepos:
+  - '*'
+  clusterResourceWhitelist:
+  - group: '*'
+    kind: '*'
