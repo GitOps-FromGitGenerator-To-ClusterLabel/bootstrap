@@ -2,6 +2,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
+  - in-cluster/managedCluster.yaml
   - dev1-london/managedCluster.yaml
   - pre1-stockholm/managedCluster.yaml
   - pre2-frankfurt/managedCluster.yaml
