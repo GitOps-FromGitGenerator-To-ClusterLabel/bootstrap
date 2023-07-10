@@ -2,10 +2,10 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: gitops-observability
+  name: gitops-cluster-config
   namespace: openshift-gitops
   labels:
-    gitops.ownedBy: observability
+    gitops.ownedBy: cluster-config
 spec:
   destination:
     namespace: openshift-gitops
