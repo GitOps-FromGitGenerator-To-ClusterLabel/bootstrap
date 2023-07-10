@@ -9,8 +9,8 @@ metadata:
 spec:
   destination:
     namespace: openshift-gitops
-    server: https://api.hub.sandbox419.opentlc.com:6443
-  project: bootstrap
+    server: https://kubernetes.default.svc
+  project: default
   source:
     path: gitops-config-applications
     repoURL: https://github.com/GitOps-FromGitGenerator-To-ClusterLabel/bootstrap.git
