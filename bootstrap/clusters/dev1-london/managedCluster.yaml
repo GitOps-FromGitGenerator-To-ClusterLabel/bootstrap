@@ -6,6 +6,7 @@ metadata:
   labels:
     name: dev1-london
     environment: development
+    sox: false
     cloud: Amazon
     region: eu-west-2
     vendor: OpenShift

@@ -6,6 +6,7 @@ metadata:
   labels:
     name: pre1-stockholm
     environment: preproduction
+    sox: false
     cloud: Amazon
     region: eu-north-1
     vendor: OpenShift
