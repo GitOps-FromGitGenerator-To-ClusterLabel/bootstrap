@@ -6,7 +6,7 @@ metadata:
     environment: acm-production
     cloud: Amazon
     usage: acm-hub
-    sox: false
+    sox: "false"
     region: eu-west-2
     vendor: OpenShift
     local-cluster: "true"
