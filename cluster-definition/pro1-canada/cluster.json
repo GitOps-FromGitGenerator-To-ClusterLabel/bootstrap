@@ -6,6 +6,6 @@
   "cluster": {
     "name": "pro1-canada",
     "alias": "pro1-canada",
-    "address": "https://api.pro1-canada.sandbox419.opentlc.com:6443"
+    "address": "https://api.pro1-canada.sandbox575.opentlc.com:6443"
   }
 }

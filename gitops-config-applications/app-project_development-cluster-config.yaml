@@ -8,7 +8,7 @@ spec:
   destinations:
   - name: dev1-london
     namespace: '*'
-    server: 'https://api.dev1-london.sandbox419.opentlc.com:6443'
+    server: 'https://api.dev1-london.sandbox575.opentlc.com:6443'
   sourceRepos:
   - '*'
   clusterResourceWhitelist:

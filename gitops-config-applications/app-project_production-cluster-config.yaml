@@ -8,7 +8,7 @@ spec:
   destinations:
   - name: pro1-canada
     namespace: '*'
-    server: 'https://api.pro1-canada.sandbox419.opentlc.com:6443'
+    server: 'https://api.pro1-canada.sandbox575.opentlc.com:6443'
   sourceRepos:
   - '*'
   clusterResourceWhitelist:

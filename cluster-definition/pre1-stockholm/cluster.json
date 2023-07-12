@@ -6,6 +6,6 @@
   "cluster": {
     "name": "pre1-stockholm",
     "alias": "pre1-stockholm",
-    "address": "https://api.pre1-stockholm.sandbox419.opentlc.com:6443"
+    "address": "https://api.pre1-stockholm.sandbox575.opentlc.com:6443"
   }
 }

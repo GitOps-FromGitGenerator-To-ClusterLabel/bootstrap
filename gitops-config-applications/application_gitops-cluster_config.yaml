@@ -9,7 +9,7 @@ metadata:
 spec:
   destination:
     namespace: openshift-gitops
-    server: https://api.hub.sandbox419.opentlc.com:6443
+    server: https://api.hub.sandbox575.opentlc.com:6443
   project: bootstrap
   source:
     path: appset
